@@ -34,7 +34,7 @@ def fist_solution(k, m, score) :
 
     while len(score) >= m :
         new_box = score[:m]
-        score = score[m:]
+        score = score[m:] # 복사로 인해 메모리 비용이 나올 수 있음
 
         answer += new_box[-1] * m
 
