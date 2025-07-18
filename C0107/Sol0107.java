@@ -14,7 +14,7 @@
 
     TEST CASE
     gooG
-    -> "YES"
+    -> 'YES'
 **/
 import java.util.Scanner;
 
